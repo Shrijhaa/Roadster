@@ -1,0 +1,363 @@
+*{
+    margin:0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+
+/*.screen{
+    background-color: rgb(255, 255, 255);   
+    
+    -webkit-animation-name: welcome;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: 1;
+}
+
+   
+@-webkit-keyframes welcome{
+    0%{
+       display:none;
+    }
+    100%{
+        display:block;
+        }
+}
+*/
+.enter{
+
+height:100vh;
+width:100%;
+background-color: rgb(255, 255, 255);
+}
+.enter img{
+    
+    -webkit-animation-name: opacity;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: 1;
+}
+@-webkit-keyframes opacity{
+    from{
+       opacity:0;
+    }
+    to{
+        opacity: 1;
+        }
+}
+
+.one{   
+    
+    width : 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-position: top right;
+    display: block;
+    background-repeat: no-repeat;
+
+    
+}
+
+.nav{
+    height:10vh;
+    background-color: rgba(49, 41, 41, 0.322);
+    background-attachment: fixed;
+    width:100%;
+   display: inline-block;
+   
+    
+}
+
+.link{
+
+    background-attachment: fixed;
+    position: relative;
+    display:inline-block;
+    left:125vh;
+   
+   
+}
+
+.link button{
+    
+    background: transparent;
+    color:white;
+    border:none;
+    border-bottom:3px solid gold;
+    font-size: 17px;
+    height:8vh;
+    width:12vh;
+    margin-right:18px;
+    margin-top:6px;
+    
+    /*margin-top:6px;
+    margin-bottom:1px;
+    
+    padding:9px;
+    padding-bottom: 3px;
+    */
+    font-weight: bold;
+    font-family: 'Delius', cursive;
+    }
+
+    .link button:hover{
+        
+        font-size: 20px;
+        background-color:gold;
+        color:black;
+    }
+
+.logo{
+    height:200px;
+    width:200px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.brandname :hover{
+    background-color:rgba(238, 224, 224, 0.452) ;
+}
+.brandname{
+    height:200px;
+    width:200px;
+    display: inline-block;
+    
+    left:45%;
+    position: relative;
+    
+    /*font-family: 'Zen Tokyo Zoo', cursive;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Kelly Slab', cursive;
+font-family: 'Bungee Outline', cursive;*/
+   
+}
+
+
+
+.space{
+    width:100%;
+    height:10px;
+}
+
+@-webkit-keyframes slider
+{
+
+0%{
+    right:0%;
+}
+10%{
+    right:0%;
+}
+30%{
+    right:100%;
+}
+60%{
+    right:200%;
+}
+90%{
+    right:300%;
+}
+100%{
+    right:0%;
+}
+}
+.two{
+    width : 100%;
+    height: 100vh;
+    overflow: hidden;  
+    
+}
+
+.slide{
+    width:400%;
+    height: 100vh;
+    position:relative;
+    display: inline-flex;
+    -webkit-animation-name: slider;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state:running;
+    
+    }
+.two :hover{
+    -webkit-animation-play-state: paused;
+}
+
+.box1,.box2,.box3,.box4{
+    width : 100%;
+    height: 100vh;
+    display:inline-block;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    border-left:3px solid black;
+}
+.box1{
+    background-image: url(images/work.jpg);
+}
+
+.quote1{
+
+    background-size: cover;
+    font-family:  sans-serif;
+    color: #3f2e08;
+    font-size: 35px;
+    top:55vh;
+    left:1vh;
+    position: relative;
+
+
+}
+
+.box2{
+    background-image: url(images/girls.jpg);
+    background-position: 10% 20%;
+}
+
+.quote2{
+
+    background-size: cover;
+    margin:20px;
+    font-family:  sans-serif;
+    color: #fff06b;
+    font-size: 35px;
+    top:5vh;
+    left:35vh;
+    position: relative;
+    
+
+}
+
+.box3{
+    background-image: url(images/motorbikegirl.jpg);
+}
+.quote3{
+
+    background-size: cover;
+    margin:20px;
+    font-family:  sans-serif;
+    color: #080808;
+    font-size: 35px;
+    top:10vh;
+    left:7px;
+    position: relative;
+    
+
+}
+
+.box4{
+    background-image: url(images/spot.jpg);
+}
+.quote4{
+
+    background-size: cover;
+    margin:20px;
+    
+    font-family:  sans-serif;
+    color: #fffdfd;
+    font-size: 35px;
+    top:70vh;
+    left:5vh;
+    position: relative;
+
+
+}
+
+/*.space{
+    width:100%;
+    height:3px;
+}
+*/
+.form{
+    background-color: rgb(54, 52, 52);
+    margin:50px auto;
+    width:70vw;
+    height:80vh;
+    
+}
+.form h1{
+    color: white;
+    padding:10px;
+}
+#contact{
+    
+    
+    margin-top:0px;
+    margin-left:30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding:20px;
+    height:80vh;
+    width:70vw;
+    font-size: 20px;
+    text-align: center;
+    background-color: gold;
+    color:black;
+    box-shadow: 10px 10px 10px #77776b;
+   
+}
+
+
+input{
+    font-size: 15px;
+    height: 30px;
+   border: none;
+   text-align: center;
+    text-decoration: none;
+    background-color: rgba(112, 102, 102, 0.315);
+    cursor: text;
+}
+input:hover{
+    border-bottom:2px solid black;
+    font-weight: bold;
+}
+.form #contact td,tr,th{
+    padding: 10px;
+    
+}
+.foot{
+    background-color:rgba(43, 40, 40);
+    color:gold;
+    font-family: 'Chakra Petch', sans-serif;
+    height: 30vh;
+    width:100%;
+    position:relative;
+    margin-top: 30vh;
+    
+    
+}
+.foottable{
+    position: relative;
+    bottom:8vh;
+    color: rgb(255, 242, 64);
+}
+
+.foottable table{
+    
+    width:100%;
+    padding: 0px;
+    position: relative;
+    margin-top: 10px;
+    background-position: center;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.foottable table th,td,tr{
+    margin: 0px;
+    padding: 3px;
+ 
+}
+.foottable table th{
+    color:white;
+}
+
+.foot .material-icons{
+    font-size:30px;
+    
+
+}
