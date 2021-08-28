@@ -17,7 +17,9 @@ Register      - form to collect data about the rider ,her driving license and bi
                                     
                                     -   sumbit registration form
                                     
-                                    -   after successful validation of form and payment details  --->>>  send confirmation mail to rider along with rally date and time.
+                                    -   after successful validation of form and payment details
+                                    
+                                    -   send confirmation mail to rider along with rally date and time.
                                     
 Contact      -  email-id (click on the link to send email to roadster)
 
